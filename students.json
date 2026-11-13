@@ -1,0 +1,33 @@
+
+[
+    {
+        "name": "Daniil Pinegin",
+        "marks": 85,
+        "city": "Tashkent"
+    },
+    {
+        "name": "Hyrulloh Fayzullayov",
+        "marks": 35,
+        "city": "Samarkand"
+    },
+    {
+        "name": "Malika Saidova",
+        "marks": 67,
+        "city": "Bukhara"
+    },
+    {
+        "name": "Tursunboy Kepakboyev",
+        "marks": 92,
+        "city": "Andijan"
+    },
+    {
+        "name": "Smth Smthinov",
+        "marks": 41,
+        "city": "Namangan"
+    },
+    {
+        "name": "Mominjon Nurmuhammadov",
+        "marks": 28,
+        "city": "Tashkent"
+    }
+]
