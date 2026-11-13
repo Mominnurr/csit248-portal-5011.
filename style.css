@@ -1,0 +1,140 @@
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content */
+main {
+    background-color: white;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Form fields */
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Invalid field */
+.invalid {
+    border: 2px solid red;
+}
+
+/* Buttons */
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #333366;
+}
+
+/* Error messages */
+#errorList {
+    color: red;
+    padding-left: 20px;
+}
+
+#nameCounter,
+#cityMessage,
+#loadTime,
+#statusMessage {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Table */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 450px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Mobile responsive design */
+@media screen and (max-width: 600px) {
+    main {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 14px;
+    }
+}
